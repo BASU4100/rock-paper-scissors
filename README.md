@@ -1,10 +1,10 @@
 # Rock-Paper-Scissors
 JavaScript Learning Project
 
-## Description
+## 📜Description
 🪨 📰 ✂️ is a classic game where 🪨❌✂️, ✂️❌📰, 📰❌🪨.
 
-## How to Play
+## 🎮How to Play
 - Go to the console
 - The site will promt you 5 times for your choice
 - Each round the computer will randomly generate it's choice to beat you
