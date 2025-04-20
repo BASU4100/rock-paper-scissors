@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chakra+Petch:wght@500&family=Dosis:wght@500&display=swap');
+
+@font-palette-values --my-custom-value {
+    font-family: "Bungee Spice";
+    override-colors: 0 #0e2e78, 1 #4dddfa;
+}
+
+body{
+    margin : 0px;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.inactive {
+    display: none !important;
+}
+
+#landingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.rockPaperScissors {
+    font-size: max(5vh, 5vw);
+}
+
+#play {
+    font-family: "Bungee Spice", sans-serif;
+    font-palette: --my-custom-value;
+    font-size: max(15vh, 15vw);
+    cursor: pointer;
+}
+
+#playing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#score {
+    display: flex;
+    height: 10%;
+}
+
+.human, .computer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.human > span {
+    font-size: xx-large;
+    float: left;
+}
+
+.humanScore, .computerScore {
+    font-size: x-large;
+    flex: 1;
+    text-align: center;
+}
+
+.computer > span {
+    font-size: xx-large;
+    float: right;
+}
+
+#choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+#choice > .human, #choice > .computer{
+    font-size: max(15vh, 15vw);
+}
+
+.result {
+    font-family: "Dosis", sans-serif;
+    font-size: max(5vh, 5vw);
+    text-align: center;
+}
+
+#round {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#round > #playRound {
+    font-family: "Chakra Petch", sans-serif;
+    color: #0e2e78;
+    text-shadow: 2px 2px 4px #4dddfa;
+    box-shadow: 0 2px 4px, 0 4px 8px;
+    font-size: max(5vh, 5vw);
+    background: white;
+}
+
+.winner {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: max(7vh, 7vw);
+}
+
+#options {
+    padding: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+}
+
+li > button {
+    font-size: max(5vh, 5vw);
+    background: white;
+    box-shadow: 0 2px 4px, 0 4px 8px;
+}
+
+button {
+    cursor: pointer;
+}

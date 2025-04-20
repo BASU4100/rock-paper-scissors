@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="winner inactive"></div>
+    <div id="landingPage">
+        <div id="play" title="Click to Play">Play</div>
+        <div class="rockPaperScissors"></div>
+    </div>
+
+    <div id="playing" class="inactive">
+        <div id="score">
+            <div class="human">
+                <span>🙎🏼</span>
+                <div class="humanScore"></div>
+            </div>
+            <div class="computer">
+                <div class="computerScore"></div>
+                <span>🤖</span>
+            </div>
+        </div>
+        <div id="choice">
+            <div class="human"></div>
+            <div class="result inactive"></div>
+            <div class="computer"></div>
+        </div>
+        <div id="round">
+            <button id="playRound">Play Round</button>
+            <ul id="options" class="inactive">
+                <li><button id="Rock">🪨</button></li>
+                <li><button id="Paper">📰</button></li>
+                <li><button id="Scissors">✂️</button></li>
+            </ul>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
