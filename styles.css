@@ -111,6 +111,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: max(7vh, 7vw);
+    text-align: center;
 }
 
 #options {
